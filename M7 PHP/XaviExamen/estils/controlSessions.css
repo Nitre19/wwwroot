@@ -1,0 +1,81 @@
+* {padding:0;margin:0; font-family: Arial;}
+
+body {
+	margin: 0 6%;
+}
+
+header {align-content: justify;}
+h1 { display: inline-block; margin: 3% 3%; width: 55%; }
+
+nav {
+	 display: inline-block;
+   margin: 0 5% 0 7%;
+   text-align: right;
+	width: 25%;
+}
+nav p a { padding: 2%;
+color: lightgrey;
+}
+a:hover {color:grey;}
+
+main{
+             border: 8px solid grey;
+    		padding: 3%;
+            background: rgb(147, 230, 180) ; 
+            border-radius: 20px;
+            display: inline-flex;
+            width: 90%;
+            }
+
+h2 {color: rgb(147, 230, 180);
+	}
+h3 {color: #c8ddc8;
+margin: 10px 5px 10px 5px;
+font-size: 1.2em;
+}
+
+
+article img {width: 80px; height: 80px; display: inline; }
+
+p {font-size: 1.3em;
+margin-left:10px; 
+display: inline;
+}
+
+p+p {font-size: 1em; 
+	display: block;  //linia següent
+}
+
+section {
+	padding: 5px;
+	border-radius: 10px;
+	background: rgb(248, 248, 249); 
+	width: 90%;
+
+}
+
+article {
+	background: rgb(253, 253, 254);
+}
+
+img{	display: inline-block; text-align: right; width: 14px;}
+
+form { margin: 0 10px 0 0; width: 95%; 
+}
+
+label {display: block;
+       margin-bottom: 10px; 
+	margin-top: 20px;
+}
+fieldset {padding:4% 1% 4% 1%;
+border-radius: 15px;
+margin: 10px 10px 0 0;}
+
+input {
+	border-radius: 5px;
+	width:160px;
+	}
+	fieldset p { font-size: 1rem; display: block;}
+input[name="quina"] {width: 80px; }
+input[type="checkbox"] {width: 20px; text-align: left; margin-left: 10px; }
+input[type="submit"] {width: 120px;  padding: 12px; margin-top: 5px;}

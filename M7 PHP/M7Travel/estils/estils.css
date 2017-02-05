@@ -1,0 +1,118 @@
+table {
+	text-align: center;
+	margin-left:auto; 
+    margin-right:auto;
+}
+
+fieldset {
+	text-align: center;
+	width:70%; 
+    margin:15%;
+     border:2px solid green;
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;	
+    border-radius:20px;
+}
+
+.viaje:hover {
+	background-color: #D8D8D8; 
+}
+th{
+	background-color: #1C1C1C;
+	color: #FFFFFF
+}
+
+img{
+	width: 255px;
+	height: 150px;
+}
+
+.imgDestino{
+	width: 35px;
+	height: 25px;
+}
+.imgDestino:hover{
+	width: 155px;
+	height: 50px;
+}
+legend {
+  padding: 0.2em 0.5em;
+  border:1px solid;
+  font-size:90%;
+  }
+
+@-moz-keyframes multicolor {
+                0% {color: IndianRed;}
+                5% {color: LightCoral;}
+                10% {color: Salmon;}
+                15% {color: DarkSalmon;}
+                20% {color: LightSalmon;}
+                25% {color: Crimson;}
+                30% {color: Red;}
+                35% {color: FireBrick;}
+                40% {color: DarkRed;}
+                45% {color: Pink;}
+                50% {color: LightPink;}
+                55% {color: HotPink;}
+                60% {color: DeepPink;}
+                65% {color: MediumVioletRed;}
+                70% {color: PaleVioletRed;}
+                75% {color: LightSalmon;}
+                80% {color: Coral;}
+                85% {color: Tomato;}
+                90% {color: OrangeRed;}
+                95% {color: DarkOrange;}
+                100% {color: Orange;}
+}
+@-webkit-keyframes multicolor {
+                0% {color: IndianRed;}
+                5% {color: LightCoral;}
+                10% {color: Salmon;}
+                15% {color: DarkSalmon;}
+                20% {color: LightSalmon;}
+                25% {color: Crimson;}
+                30% {color: Red;}
+                35% {color: FireBrick;}
+                40% {color: DarkRed;}
+                45% {color: Pink;}
+                50% {color: LightPink;}
+                55% {color: HotPink;}
+                60% {color: DeepPink;}
+                65% {color: MediumVioletRed;}
+                70% {color: PaleVioletRed;}
+                75% {color: LightSalmon;}
+                80% {color: Coral;}
+                85% {color: Tomato;}
+                90% {color: OrangeRed;}
+                95% {color: DarkOrange;}
+                100% {color: Orange;}
+}
+@-ms-keyframes multicolor {
+                0% {color: IndianRed;}
+                5% {color: LightCoral;}
+                10% {color: Salmon;}
+                15% {color: DarkSalmon;}
+                20% {color: LightSalmon;}
+                25% {color: Crimson;}
+                30% {color: Red;}
+                35% {color: FireBrick;}
+                40% {color: DarkRed;}
+                45% {color: Pink;}
+                50% {color: LightPink;}
+                55% {color: HotPink;}
+                60% {color: DeepPink;}
+                65% {color: MediumVioletRed;}
+                70% {color: PaleVioletRed;}
+                75% {color: LightSalmon;}
+                80% {color: Coral;}
+                85% {color: Tomato;}
+                90% {color: OrangeRed;}
+                95% {color: DarkOrange;}
+                100% {color: Orange;}
+}
+ 
+a {
+-moz-animation:    multicolor 3s infinite;
+-webkit-animation:    multicolor 3s infinite;
+-ms-animation:    multicolor 3s infinite;
+}
